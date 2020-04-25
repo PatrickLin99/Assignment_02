@@ -1,0 +1,49 @@
+1. 在一個大類別或母架構之中去分享或是建立支線做其他功能上的應用或承接
+
+2. String.split()
+   ---------------------------------------------------
+   val example : String = “This is an example”
+   val spearated = example.split(“ “)
+   println(“separated”)
+   ---------------------------------------------------
+   [This, is, an, example]
+
+3. HashMap
+   ---------------------------------------------------
+   val example: HashMap<Int, String> = HashMap()
+  
+   example.put(1, "Monday")
+   example.put(2, "Tuesday")
+   example.put(3, "Wednesday")
+   example.put(4, "Thursday")
+   example.put(5, "Friday")
+   example.put(6, "Saturday")
+   example.put(7, "Sunday")
+   
+   for((key, value) in example) {
+   when (key){
+       1 -> println("This is $key'st day in a week, $value")
+       2 -> println("This is $key'nd day in a week, $value")
+       else -> println("This is $key'th day in a week, $value")
+     }
+   }
+   ---------------------------------------------------
+   This is 1'st day in a week, Monday.
+   This is 2'nd day in a week, Tuesday.
+   This is 3'th day in a week, Wednesday.
+   This is 4'th day in a week, Thursday.
+   This is 5'th day in a week, Friday.
+   This is 6'th day in a week, Saturday.
+   This is 7'th day in a week, Sunday.
+   ---------------------------------------------------
+
+4. ArrayList組成的資料為按順序編排，如為n筆資料，則從小到大則為第0到第n-1筆
+   LinkedList裡的資料則是同時有Node組成，而Node則表記憶體儲存的資料，而Node會友指向下個Node的資料
+
+5. Int, Double, Float, Long, Short, Byte
+
+6. 2147483647, 超過此值則使用toLong()
+
+
+
+
