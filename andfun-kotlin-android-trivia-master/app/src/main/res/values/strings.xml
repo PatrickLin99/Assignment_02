@@ -48,4 +48,5 @@
     ...\n
     </string>
     <string name="nickname">Patrick</string>
+    <string name="profileButton">Profile</string>
 </resources>
